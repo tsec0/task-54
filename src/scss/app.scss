@@ -27,3 +27,17 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.container {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template: 100px 100px 100px/ 200px 200px 200px;
+  grid-row-gap: 25px;
+}
+
+.item {
+  background-color: #80cbc4;
+  border: 1px solid #fff;
+  font-size: 30px;
+  text-align: center;
+}
